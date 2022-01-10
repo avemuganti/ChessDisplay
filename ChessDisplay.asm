@@ -35,7 +35,7 @@ test:	.byte		 0,  0,  0,  0, -6,  0,  0, -4,
 li	$a0, 786432
 li	$v0, 9
 syscall
-li	$s1, -1 # s1 is 1 if we are playing white, and is -1 if we are playing black.
+li	$s1, 1 # s1 is 1 if we are playing white, and is -1 if we are playing black.
 move	$s5, $zero # s5 is the position cache counter. This represents the # of moves in cache.
 li	$s7, 0x10040000 # s7 will be a "cache pointer" used to control and traverse the move cache.
 
