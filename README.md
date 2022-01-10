@@ -9,3 +9,5 @@ Once the program has been assembled (but not yet run), open the "Tools" dropdown
 To see the entirety of the chessboard, resize the bitmap window such that the entire 512 x 512 area of the display can be seen.
 
 You may now run the program. The two "players" make random moves, without any regard for strategy. However, all moves that are made should be legal, including moves that occur when either king is in check.
+
+Video of the program running: https://vimeo.com/664094050/280757924a
